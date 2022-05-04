@@ -1,1 +1,2 @@
-# site
+# Stenstromen.se
+# Just for fun :)
