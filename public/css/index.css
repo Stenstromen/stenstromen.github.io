@@ -28,6 +28,10 @@ body {
     color: #FAF0E5;
 }
 
+a:visited {
+    color: #FAF0E5;
+}
+
 img {
     width: 70%;
 }
