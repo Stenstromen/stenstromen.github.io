@@ -32,6 +32,15 @@ a:visited {
     color: #FAF0E5;
 }
 
+.linxlink {
+    color: black;
+    font-size: x-large;
+}
+
+.linxlink:visited {
+    color:black;
+}
+
 img {
-    width: 77%;
+    width: 70%;
 }
