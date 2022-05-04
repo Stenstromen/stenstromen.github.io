@@ -13,6 +13,11 @@ body {
     align-items: center;
 }
 
+.letter {
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
     display: flex;
     justify-content: center;
