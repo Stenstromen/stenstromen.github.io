@@ -21,6 +21,11 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+    color: #FAF0E5;
+}
+
+.linky {
+    color: #FAF0E5;
 }
 
 img {
