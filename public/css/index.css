@@ -1,0 +1,23 @@
+body {
+    background-color: #FAF0E5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+}
