@@ -41,6 +41,10 @@ a:visited {
     color:black;
 }
 
+.message {
+    color: plum;
+}
+
 img {
     width: 70%;
 }
