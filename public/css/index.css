@@ -42,7 +42,10 @@ a:visited {
 }
 
 .message {
-    color: plum;
+    background: -webkit-linear-gradient(90deg, rgba(236,0,193,1) 31%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
 }
 
 img {
