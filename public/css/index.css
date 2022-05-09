@@ -1,5 +1,6 @@
 body {
-    background-color: #FAF0E5;
+    /*background-color: #FAF0E5;*/
+    background-color: #FBF2E5;
 }
 
 .header {
@@ -11,6 +12,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.yum {
+    display: flex;
+    justify-content: center;
 }
 
 .letter {
@@ -25,11 +31,13 @@ body {
 }
 
 .linky {
-    color: #FAF0E5;
+    /* color: #FAF0E5; */
+    color: #FBF2E5;
 }
 
 a:visited {
-    color: #FAF0E5;
+    /* color: #FAF0E5; */
+    color: #FBF2E5;
 }
 
 .linxlink {
@@ -50,5 +58,5 @@ a:visited {
 }
 
 img {
-    width: 70%;
+    width: 46%;
 }
