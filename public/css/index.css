@@ -26,6 +26,7 @@ body {
 
 .portfolio > p:first-of-type {
   margin-top: 10px;
+  font-size: x-large;
 }
 
 .portfolio > p {
@@ -35,6 +36,7 @@ body {
 
 .portfolio > p > a {
   color: black;
+  font-weight:600
 }
 
 .portfolio > p > a:hover {
@@ -90,11 +92,11 @@ img {
 
 @media screen and (max-width: 428px) {
   .image > img {
-    width: 400px;
+    width: 250px;
   }
 
   .portfolio {
-    width: 395px;
+    width: 380px;
     border: 1px solid black;
   }
 
