@@ -1,68 +1,113 @@
 body {
-    /*background-color: #FAF0E5;*/
-    background-color: #FBF2E5;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
+  background-color: #fbf2e5;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.yum {
-    display: flex;
-    justify-content: center;
+.image > img {
+  width: 25%;
+}
+
+.portfolio-box {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio {
+  background-color: #e8d4b6;
+  border-radius: 5px;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.portfolio > p:first-of-type {
+  margin-top: 10px;
+}
+
+.portfolio > p {
+  margin: 0;
+  font-size: x-large;
+}
+
+.portfolio > p > a {
+  color: black;
+}
+
+.portfolio > p > a:hover {
+  color: lightslategray;
+}
+
+.portfolio > .message {
+  display: inline;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(236, 0, 193, 1) 31%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: x-large;
+  word-wrap: break-word;
+  margin-bottom: 10px;
 }
 
 .letter {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    color: #FAF0E5;
+  display: flex;
+  justify-content: center;
+  color: #faf0e5;
 }
 
 .linky {
-    /* color: #FAF0E5; */
-    color: #FBF2E5;
+  color: #fbf2e5;
 }
 
 a:visited {
-    /* color: #FAF0E5; */
-    color: #FBF2E5;
+  color: #fbf2e5;
 }
 
 .linxlink {
-    color: black;
-    font-size: x-large;
+  color: black;
+  font-size: x-large;
 }
 
 .linxlink:visited {
-    color:black;
-}
-
-.message {
-    background: -webkit-linear-gradient(90deg, rgba(236,0,193,1) 31%, rgba(0,212,255,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: x-large;
+  color: black;
 }
 
 img {
-    width: 46%;
+  width: 46%;
 }
 
-@media screen and (max-width: 450px) {
-    img {
-        width: 100%;
-    }
+@media screen and (max-width: 428px) {
+  .image > img {
+    width: 400px;
+  }
+
+  .portfolio {
+    width: 420px;
+    border: 1px solid black;
+  }
+
+  .portfolio > p:first-of-type {
+    margin-top: 10px;
+    margin-left: 7px;
+  }
+
+  .portfolio > p {
+    margin: 0px;
+  }
+
+  .portfolio > p > a {
+    color: black;
+  }
 }
