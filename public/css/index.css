@@ -14,6 +14,7 @@ body {
 
 .portfolio-box {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -22,11 +23,13 @@ body {
   border-radius: 5px;
   width: 30%;
   border: 1px solid black;
+  margin-right: 15px;           /* Space between boxes */
 }
 
 .portfolio > p:first-of-type {
   margin-top: 10px;
   font-size: x-large;
+  margin-left: 7px;
 }
 
 .portfolio > p {
@@ -44,6 +47,48 @@ body {
 }
 
 .portfolio > .message {
+  display: inline;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(236, 0, 193, 1) 31%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: x-large;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.techused {
+  background-color: #e8d4b6;
+  border-radius: 5px;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.techused > p:first-of-type {
+  margin-top: 10px;
+  font-size: x-large;
+  margin-left: 3px;
+}
+
+.techused > p {
+  margin: 0;
+  font-size: x-large;
+}
+
+.techused > p > a {
+  color: black;
+  font-weight:600
+}
+
+.techused > p > a:hover {
+  color: lightslategray;
+}
+
+.techused > .message {
   display: inline;
   background: -webkit-linear-gradient(
     90deg,
@@ -95,10 +140,15 @@ img {
     .image > img {
       width: 250px;
     }
+
+    .portfolio-box {
+      flex-direction: column;
+    }
   
     .portfolio {
-      width: 380px;
+      width: 372.5px;
       border: 1px solid black;
+      margin-right: 0px;
     }
   
     .portfolio > p:first-of-type {
@@ -111,6 +161,29 @@ img {
     }
   
     .portfolio > p > a {
+      color: black;
+    }
+    
+    .techused {
+      width: 372.5px;
+      border: 1px solid black;
+      margin-top: 10px;
+    }
+  
+    .techused > p:first-of-type {
+      margin-top: 10px;
+      margin-left: 3px;
+    }
+
+    .techused > p:last-of-type {
+      margin-bottom: 10px;
+    }
+  
+    .techused> p {
+      margin: 0px;
+    }
+  
+    .techused > p > a {
       color: black;
     }
   }
@@ -129,6 +202,11 @@ img {
     .portfolio > .message {
       font-size: larger;
     }
+
+    .techused {
+      width: 365px;
+      border: 1px solid black;
+    }
   }
   
   /* Small iPhone */
@@ -144,6 +222,16 @@ img {
     }
   
     .portfolio > .message {
+      font-size: larger;
+    }
+
+    .techused {
+      width: 310px;
+      border: 1px solid black;
+    }
+
+    .techused > p {
+      margin: 0px;
       font-size: larger;
     }
   }
