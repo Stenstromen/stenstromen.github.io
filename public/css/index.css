@@ -74,6 +74,11 @@ body {
   margin-left: 3px;
 }
 
+.cloudflare {
+  color: black;
+  font-weight:600
+}
+
 .techused > p {
   margin: 0;
   font-size: x-large;
@@ -103,15 +108,14 @@ body {
   margin-bottom: 10px;
 }
 
-.letter {
-  display: flex;
-  justify-content: center;
+footer {
+  border-top: 1px solid #e8d4b6;
+  border-radius: 5px;
+  font-size: large;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  color: #faf0e5;
+footer > p {
+  margin: 0;
 }
 
 .linky {
