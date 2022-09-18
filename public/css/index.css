@@ -225,6 +225,10 @@ img {
       width: 365px;
       border: 1px solid black;
     }
+
+    .lol {
+      display: none;
+    }
   }
   
   /* Small iPhone */
@@ -251,6 +255,10 @@ img {
     .techused > p {
       margin: 0px;
       font-size: larger;
+    }
+
+    .lol {
+      display: none;
     }
   }
   
